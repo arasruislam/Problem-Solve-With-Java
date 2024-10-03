@@ -1,0 +1,25 @@
+while (true) {
+    // Ask to user
+    System.out.println("");
+    System.out.println("Enter 1: Start");
+    System.out.println("Enter 2: Stop");
+
+    System.out.print("Enter: ");
+    int input = scan.nextInt();
+
+    if (input == 1) {
+        // varibale & inputs
+        System.out.println("");
+        System.out.print("Enter a number: ");
+        int value = scan.nextInt();
+        
+
+    } else if (input == 2) {
+        System.out.println("\n");
+        System.out.println("Stop.");
+        break;
+    } else {
+        System.out.println("Invalid Input");
+        System.out.println("");
+    }
+}
