@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class PrintNaturalNumberUsingWhile {
+public class PrintNaturalNumberReverseOrderUsingWhile {
 
     public static void main(String[] args) {
         // Classes

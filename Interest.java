@@ -1,3 +1,12 @@
+/* 
+ * Write a Java program to enter P, T, and R and calculate Simple and Compound
+    Interest.
+    [Hints:
+    Compound Interest:
+    Formula: P * ((1 + R / 100) T - 1) (where P = Principle, T = Time, R = Rate) Simple Interest:
+    Formula: Principle * Time * Rate / 100]
+ */
+
 import java.text.DecimalFormat;
 import java.util.Scanner;
 

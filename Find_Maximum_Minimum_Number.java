@@ -1,3 +1,7 @@
+/* 
+ * Write a Java program to find maximum and minimum among three numbers using  conditional/ternary operator.
+ */
+
 import java.util.Scanner;
 
 public class Find_Maximum_Minimum_Number {
