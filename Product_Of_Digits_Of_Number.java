@@ -1,16 +1,16 @@
 /* 
- * Write a Java program to calculate sum of digits of any number.
+ * Write a Java program to calculate product of digits of any number.
  */
 
 import java.util.Scanner;
 
-public class Sum_Of_Digits_Of_Number {
+public class Product_Of_Digits_Of_Number {
    public static void main(String[] args) {
       // Classes
       Scanner scan = new Scanner(System.in);
 
       // variable and inputs
-      int digitSum = 0;
+      int product = 1;
 
       System.out.print("Enter a number: ");
       int number = scan.nextInt();
@@ -21,11 +21,13 @@ public class Sum_Of_Digits_Of_Number {
       }
 
       // application
+      if (number == 0)
+         product = 0;
       while (number > 0) {
-         digitSum += (number % 10);
+         product *= (number % 10);
          number /= 10;
       }
 
-      System.out.println("sum of digits: "+ digitSum);
+      System.out.println("sum of digits: " + product);
    }
 }
