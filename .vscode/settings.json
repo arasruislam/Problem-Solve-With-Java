@@ -1,0 +1,14 @@
+{
+   "apc.stylesheet": {
+      "*": "font-family: JetBrains Mono NL",
+      ".editor .title": "background: transparent !important;",
+      ".action-container.highlight-toggled": "display: none;",
+      ".editor .title .action-container .action-item a": "visibility: hidden;",
+      ".editor .title .action-container": "flex-direction: row-reverse;",
+      // only show the scrollbar on hover
+      ".editor .scrollbar .slider": "visibility: hidden;",
+      ".editor .scrollbar:hover .slider": "visibility: initial;",
+      // change cursor color
+      ".monaco-editor .cursor": "background: linear-gradient(to bottom, #7f00ff , #e100ff) !important"
+   }
+}

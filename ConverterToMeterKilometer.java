@@ -6,7 +6,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Converter {
+public class ConverterToMeterKilometer {
     public static void main(String[] args) {
         // classes
         Scanner scanner = new Scanner(System.in);
