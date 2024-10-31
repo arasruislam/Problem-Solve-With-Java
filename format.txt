@@ -15,7 +15,7 @@ while (true) {
         
 
     } else if (input == 2) {
-        System.out.println("\n");
+        System.out.println("");
         System.out.println("Stop.");
         break;
     } else {
