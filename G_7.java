@@ -14,6 +14,8 @@ public class G_7 {
 
       String toggle = toggleCase(input);
       System.out.println("Output: " + toggle);
+
+      scan.close();
    }
 
    public static String toggleCase(String input) {
