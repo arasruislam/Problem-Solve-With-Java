@@ -19,6 +19,7 @@ public class G_30 {
       int count = 0;
 
       while (index != -1) {
+         System.out.println("The word found at: " + index + " index");
          count++;
          index = input.indexOf(word, index + word.length());
       }
