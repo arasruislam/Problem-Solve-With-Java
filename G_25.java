@@ -1,10 +1,10 @@
 /* 
- * Write a Java program to find first occurrence of a character in a given string.
+ * write a java program to replace first occurrence of a character with another in a string
  */
 
 import java.util.Scanner;
 
-public class G_14 {
+public class G_25 {
    public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
 
@@ -15,14 +15,19 @@ public class G_14 {
       System.out.print("Enter a character for find: ");
       String ch = scan.nextLine();
 
+      System.out.print("Enter a character to replace: ");
+      String repCh = scan.nextLine();
+
       int index = input.indexOf(ch);
 
       if (index != -1) {
-         System.out.println("The first occurrence is '" + ch + "' is at index: " + index);
+         String result = input.substring(0, index) + repCh + input.substring(index + 1);
+
+         System.out.println("Modified string: " + result);
       } else {
          System.out.println("The character '" + ch + "' is not found in the string.");
       }
 
-      scan.close(); 
+      scan.close();
    }
 }
